@@ -1,0 +1,26 @@
+
+
+.buttons{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+
+  &__button{
+    background-color: $color-purple;
+    color: $color-white;
+    padding: 1rem 1.6rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  &__button:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px rgba($color-black, 1);
+  }
+
+}

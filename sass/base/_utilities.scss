@@ -1,0 +1,17 @@
+
+
+.container {
+
+  width: 50%;
+  margin: 30dvh auto;
+  background-color: $color-light-gray;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.active{
+  background-color: $color-purple;
+}

@@ -1,0 +1,26 @@
+
+
+.step{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items:baseline;
+  margin-bottom: 3rem;
+
+  &__item{
+    background-color: $color-dark-gray;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: $color-white;
+    text-align: center;
+  }
+
+  &__item.active{
+    background-color: $color-purple;
+  }
+
+  
+
+
+}

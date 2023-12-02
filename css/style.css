@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2; }
+
+.container {
+  width: 50%;
+  margin: 30dvh auto;
+  background-color: #e2e8f0;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.active {
+  background-color: #7e22ce; }
+
+.step {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-bottom: 3rem; }
+  .step__item {
+    background-color: #94a3b8;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: #f8fafc;
+    text-align: center; }
+  .step__item.active {
+    background-color: #7e22ce; }
+
+.buttons {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 3rem; }
+  .buttons__button {
+    background-color: #7e22ce;
+    color: #f8fafc;
+    padding: 1rem 1.6rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; }
+  .buttons__button:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px #374151; }
+
+.text {
+  font-weight: 700; }
